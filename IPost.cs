@@ -38,7 +38,6 @@ namespace YunCore
         /// </summary>
         DateTime ModifyOn { set; get; }
 
-
         /// <summary>
         /// 出错信息
         /// </summary>

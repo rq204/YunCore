@@ -31,7 +31,7 @@ namespace YunCore
         int ParentId { get; set; }
 
         /// <summary>
-        /// 排序，按从小到大 自上而下排序 算法设计：移动到两个节点之间时 利用两个节点的listorder值相除得到新节点的listorder值
+        /// 排序，按从小到大 自上而下排序
         /// </summary>
         decimal ListOrder { get; set; }
         /// <summary>

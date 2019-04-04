@@ -6,7 +6,7 @@ using System.Windows.Forms;
 namespace YunCore
 {
     /// <summary>
-    /// 扩展定义,定义了最常用的几个使用方法，具体使用见说明
+    /// 扩展定义,实现它就实现了个采集程序
     /// </summary>
     public interface IApp
     {

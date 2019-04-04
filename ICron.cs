@@ -56,7 +56,6 @@ namespace YunCore
         /// </summary>
         string CronGroup { set; get; }
 
-
         /// <summary>
         /// 创建时间
         /// </summary>

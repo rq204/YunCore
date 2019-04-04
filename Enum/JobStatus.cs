@@ -22,8 +22,6 @@ namespace YunCore
         /// 暂停
         /// </summary>
         Paused
-        //    ,
-
         ///// <summary>
         ///// 队列等待中
         ///// </summary>

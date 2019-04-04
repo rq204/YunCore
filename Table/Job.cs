@@ -9,7 +9,6 @@ using YunCore;
 
 namespace YunCore.Table
 {
-    /* SortedDictionary 需要比较器实现来执行键比较。可以使用一个接受 comparer 参数的构造函数来指定 IComparer 泛型接口的实现；如果不指定实现，则使用默认的泛型比较器 Comparer.Default。如果类型 TKey 实现 System.IComparable 泛型接口，则默认比较器使用该实现。*/
     /// <summary>
     /// 任务配置，xmldata由具体实现来生成
     /// </summary>
@@ -22,11 +21,9 @@ namespace YunCore.Table
 
         public int JobId { get; set; }
 
-
         public string JobName { get; set; }
 
         public int GroupId { get; set; }
-
 
         public string XmlData { get; set; }
 
